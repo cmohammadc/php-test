@@ -8,11 +8,3 @@ COPY . ./
 RUN composer install --no-dev --no-interaction -o
 
 RUN composer global require laravel/installer
-
-
-
-
-
-
-
-
